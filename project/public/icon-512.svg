@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#0a0f1a"/>
+  <circle cx="256" cy="256" r="160" fill="#1a2d1a" stroke="#1B4D3E" stroke-width="4"/>
+  <circle cx="256" cy="256" r="160" fill="url(#moon2)" clip-path="url(#clip2)"/>
+  <defs>
+    <radialGradient id="moon2" cx="60%" cy="40%">
+      <stop offset="0%" stop-color="#FFF8E7"/>
+      <stop offset="60%" stop-color="#D4B86A"/>
+      <stop offset="100%" stop-color="#9A7D3A"/>
+    </radialGradient>
+    <clipPath id="clip2">
+      <path d="M256 96 A160 160 0 0 1 256 416 A80 160 0 0 0 256 96"/>
+    </clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#F5E6D3" stroke-width="2" opacity="0.3"/>
+</svg>
