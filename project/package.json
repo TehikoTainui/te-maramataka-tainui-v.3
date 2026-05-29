@@ -39,7 +39,7 @@
           "arch": ["x64"]
         }
       ],
-      "icon": "public/icon-512.svg"
+      "icon": "public/icon.ico"
     },
     "nsis": {
       "oneClick": false,
