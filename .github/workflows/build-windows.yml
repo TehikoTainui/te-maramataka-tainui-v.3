@@ -8,7 +8,7 @@ jobs:
     runs-on: windows-latest
     defaults:
       run:
-        working-directory: te-maramataka-tainui-v.3
+        working-directory: project
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -24,5 +24,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: windows-installer
-          path: te-maramataka-tainui-v.3/release/
+          path: project/release/
           retention-days: 30
+
